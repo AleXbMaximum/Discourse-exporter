@@ -2,7 +2,7 @@
 
 ## Shared Agent Skills
 
-- The canonical shared catalog is `/Users/xuanbomiao/Code/Experience/agent-skills` on macOS and `D:\Code\Experience\agent-skills` on Windows. Do not infer its location relative to this project.
+- The canonical shared catalog is `/Users/xuanbomiao/Code/0_devControl/agent-skills` on macOS and `D:\Code\0_devControl\agent-skills` on Windows. Do not infer its location relative to this project.
 - Read `CATALOG.md` in that catalog and refer to workflows by canonical skill name; `skills/` is source, while `dist/` is generated host output.
 - Codex discovers user skills in `~/.agents/skills` on macOS or `%USERPROFILE%\.agents\skills` on Windows, and project skills in `<project-root>/.agents/skills`.
 - Claude Code discovers user skills in `~/.claude/skills` on macOS or `%USERPROFILE%\.claude\skills` on Windows, and project skills in `<project-root>/.claude/skills`.
